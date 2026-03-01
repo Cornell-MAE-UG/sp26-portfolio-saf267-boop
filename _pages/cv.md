@@ -13,16 +13,16 @@ permalink: /cv/
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in Engineering Physics and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Engineering Physics*  
+  GPA: 3.41/4.0 | Graduation: May, 2028
 
-- **[High School Name]**  
+- **Horace Greeley Highschool **  
   *High School Diploma*  
   Graduation: [Month, Year]
 
