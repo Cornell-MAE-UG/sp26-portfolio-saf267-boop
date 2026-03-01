@@ -4,7 +4,7 @@ title: <Seamus Finn> - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
-
+[Cornell....pdf](https://github.com/user-attachments/files/25666497/Cornell.pdf)
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
