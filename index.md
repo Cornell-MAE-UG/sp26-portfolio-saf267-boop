@@ -5,8 +5,7 @@ title: <Seamus Finn>
 
 ## About Me
 
-
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+<img width="608" height="548" alt="Screenshot 2026-03-01 at 4 20 47 PM" src="https://github.com/user-attachments/assets/0b72c01f-7e1a-42e0-b06c-5ebe5a910570" />
 
  
 My name is {{ site.Seamus }}, and I am an applied physics major in Cornell college of Engineering. I also run NCAA Track and field 
