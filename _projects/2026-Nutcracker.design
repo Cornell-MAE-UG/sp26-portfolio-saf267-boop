@@ -3,7 +3,7 @@ Problem statement and objective:
 I needed to design a usable nutcracker given certain paramteres. 
 
 Constraints and input paramters:
-THe needed force to crack the nut ~2220N and the average applied force ~500. The radius of the nutcracker is 1 cm. 
+The needed force to crack the nut ~2220N and the average applied force ~500. The radius of the nutcracker is 1 cm. 
 
 My approach to the problem: 
 My approach was to first take the moment about the pin at the nutcracker, which was the part furtheset away from the handle. 
