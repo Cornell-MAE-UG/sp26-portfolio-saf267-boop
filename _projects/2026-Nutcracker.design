@@ -11,7 +11,7 @@ Based on how I designed the nucracker, It allowed for the only part of the radiu
 the part along the i^ axis. The radius until the nut I designated as x1, and the radius until the applied for I measure as x1+x2. 
 Taking the moment about the pin would allow me to find these two values of x1 and x2 thatwould balance the forces sufficently. 
 
-Diagram of the Nutcracker: /assets/images/Diagram.png
+Diagram of the Nutcracker: /assets/images/Diagram.jpg
 
 Discussion on usability of the design: 
 This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
