@@ -19,7 +19,7 @@ Taking the moment about the pin would allow me to find these two values of x1 an
 Once I found the lengths, I had the complete diagram of the nutcracker. 
 
 Diagram of the Nutcracker:
-/assets/images/Diagram.jpg
+![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
 
 Discussion on usability of the design: 
 This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
