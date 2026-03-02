@@ -1,3 +1,9 @@
+---
+layout: project
+title: Nutcracker
+description: How I created my own nutcracker
+image: /assets/images/Diagram.jpg
+---
 
 Problem statement and objective: 
 I needed to design a usable nutcracker given certain paramteres. 
