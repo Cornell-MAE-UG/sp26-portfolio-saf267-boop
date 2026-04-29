@@ -4,6 +4,13 @@ title: Design your own Nutcracker
 description: How I created my own nutcracker
 image: /assets/images/Diagram.jpg
 ---
+.
+
+
+
+
+
+
 PART 1:
 Problem statement and objective: 
 I needed to design a usable nutcracker given certain paramteres. 
@@ -21,7 +28,7 @@ Once I found the lengths, I had the complete diagram of the nutcracker.
 Diagram of the Nutcracker:
 
 ![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
-
+.
 
 
 
