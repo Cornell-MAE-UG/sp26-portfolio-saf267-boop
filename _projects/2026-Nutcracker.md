@@ -5,10 +5,9 @@ description: How I created my own nutcracker
 image: /assets/images/Diagram.jpg
 ---
 .
-
-
-
-
+.
+.
+.
 
 
 PART 1:
@@ -29,10 +28,9 @@ Diagram of the Nutcracker:
 
 ![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
 .
-
-
-
-
+.
+.
+.
 
 Discussion on usability of the design: 
 This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
