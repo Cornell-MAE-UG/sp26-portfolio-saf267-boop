@@ -45,7 +45,7 @@ Given these assumptions the I used the following approaches:
 (b) I used the same appendix which allowed me to find the equation for the maximum deflection. Because the maximum deflection can only be two percent of the length I used: Ymax = L*0.02 = (Pa(L^2-a^2)^3/2)/(9Sqrt(3)EIL), thus to answer the question we need to find the cross section and the material. This depends on the two variables E and I, all else are givens. So I isolated for them and now needed to choose materials such that it was the most mass effective. Using the same appendix, I found that a optimal material would be structural steel as it is sturdy to not deform a lot while still not being incredibley heavy. In addition, using the E=200GPA for steel this when done out gives the best W beam per unit shape to be the W 18x106
 (c) attatched is the diagram that I would use for this nutcracker. 
 
-![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
+![Diagram]({{ "/assets/images/image-1.png" | relative_url }}){: .inline-image-l}
 
 
 Assistence: I went to office hours, where they helped me understand the problem and how to approach it.
