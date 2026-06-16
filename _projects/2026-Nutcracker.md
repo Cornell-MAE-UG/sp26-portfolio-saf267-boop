@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Design your own Nutcracker 
+title: Nutcracker Design Project: Statics and Mechanics Design
 description: How I created my own nutcracker
 image: /assets/images/Diagram.jpg
 ---
