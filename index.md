@@ -9,4 +9,4 @@ title: <Seamus Finn>
 
  
 My name is {{ site.Seamus }}, and I am an Engineering Physics student at Cornell University’s College of Engineering with an intended minor in Mechanical Engineering. I am interested in applied physics, mechanical design, data analysis, and using technical tools to solve real-world problems. Outside the classroom, I compete on Cornell’s NCAA Division I Track and Field team.
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">Resume</a>.
