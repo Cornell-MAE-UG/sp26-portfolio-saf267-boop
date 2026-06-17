@@ -2,11 +2,10 @@
 layout: project
 title: Design your own Nutcracker
 description: Designed a functional nutcracker to meet specified force and usability constraints using statics, moment equilibrium, and beam deflection analysis. The project included force modeling, geometric design, and cross-section optimization.
-image: /assets/images/Diagram.jpg
 ---
 
 Overview:
-I need to design a usable nutcracker given certain paramteres. 
+I need to design a usable nutcracker given certain parameteres. 
 
 
 | Parameter | Value |
