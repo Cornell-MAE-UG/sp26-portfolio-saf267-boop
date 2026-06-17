@@ -5,7 +5,7 @@ description: Designed a functional nutcracker to meet specified force and usabil
 ---
 
 Overview:
-I need to design a usable nutcracker given certain parameteres. 
+I need to design a usable nutcracker given parameters as listed below: 
 
 
 | Parameter | Value |
@@ -18,7 +18,7 @@ I need to design a usable nutcracker given certain parameteres.
 | Selected material | Structural steel |
 | Elastic modulus | 200 GPa |
 
-Part 1: Force and Geometry Analysis:
+**Part 1: Force and Geometry Analysis**
 
 My approach to the problem: 
 My approach was to first take the moment about the pin at the nutcracker, which was the part furtheset away from the handle. 
@@ -35,15 +35,13 @@ Diagram of the Nutcracker:
 Discussion on usability of the design: 
 This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
 
-Part 2: Beam Deflection and Material Selection
+**Part 2: Beam Deflection and Material Selection**
+
 Problem statement and objective: 
 Given the design of the nutcracker as stated above I now needed to: 
 #1 Find the location of maximum elastic deflection in your handles. 
 #2 Choose a “beam” design (cross-section, material) such that the vertical elastic deflection is below 2% of its length and is the most mass-efficient possible.
 #3 Present the final diamgram as in an image or drawing.
-
-Constraints, input paramaters, and assumptions: 
-For this second part I kept the same applied force and force to crack the nut. The assumption that I made was that the bar was straight from the pin to the nut to the point of applied force. 
 
 My approach to the problem: 
 Given these assumptions the I used the following approaches: 
@@ -52,6 +50,3 @@ Given these assumptions the I used the following approaches:
 (c) attatched is the diagram that I would use for this nutcracker. 
 
 ![Diagram]({{ "/assets/images/image-1.png" | relative_url }}){: .inline-image-l}
-
-
-Assistence: I went to office hours, where they helped me understand the problem and how to approach it.
