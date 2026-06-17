@@ -1,9 +1,9 @@
 ---
 layout: default
-title: <Seamus Finn> - Curriculum Vitae
+title: <Seamus Finn> - Resume
 permalink: /cv/
 ---
-## Curriculum Vitae
+## Resume
 [Cornell....pdf](https://github.com/user-attachments/files/25666497/Cornell.pdf)
 [Download my Resume]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
