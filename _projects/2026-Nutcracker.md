@@ -5,14 +5,21 @@ description: Designed a functional nutcracker to meet specified force and usabil
 image: /assets/images/Diagram.jpg
 ---
 
+Overview:
+I need to design a usable nutcracker given certain paramteres. 
 
 
-PART 1:
-Problem statement and objective: 
-I needed to design a usable nutcracker given certain paramteres. 
+| Parameter | Value |
+|---|---:|
+| Required force to crack nut | 2220 N |
+| Applied user force | 500 N |
+| Nut radius | 1 cm |
+| Nut gap | 1 cm |
+| Maximum allowed deflection | ≤ 2% of beam length |
+| Selected material | Structural steel |
+| Elastic modulus | 200 GPa |
 
-Constraints and input paramters:
-The needed force to crack the nut ~2220N and the average applied force ~500. The radius of the nut is 1 cm. 
+Part 1: Force and Geometry Analysis:
 
 My approach to the problem: 
 My approach was to first take the moment about the pin at the nutcracker, which was the part furtheset away from the handle. 
@@ -29,7 +36,7 @@ Diagram of the Nutcracker:
 Discussion on usability of the design: 
 This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
 
-PART 2: 
+Part 2: Beam Deflection and Material Selection
 Problem statement and objective: 
 Given the design of the nutcracker as stated above I now needed to: 
 #1 Find the location of maximum elastic deflection in your handles. 
