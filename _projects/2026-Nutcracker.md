@@ -35,6 +35,9 @@ Diagram of the Nutcracker:
 
 ![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
 
+<p align="center">
+  <img src="your-image-file.png" alt="Diagram of the Nutcracker" width="70%">
+</p>
 
 
 **Part 2: Beam Deflection and Material Selection**
