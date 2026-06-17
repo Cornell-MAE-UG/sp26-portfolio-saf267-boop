@@ -4,8 +4,7 @@ title: "Nutcracker Design Project: Statics & Mechanics"
 description: Designed a functional nutcracker to meet specified force and usability constraints using statics, moment equilibrium, and beam deflection analysis. The project included force modeling, geometric design, and cross-section optimization.
 ---
 
-Overview:
-I need to design a usable nutcracker given parameters as listed below: 
+**Overview: I need to design a usable nutcracker given parameters as listed below**
 
 
 | Parameter | Value |
@@ -18,6 +17,7 @@ I need to design a usable nutcracker given parameters as listed below:
 | Selected material | Structural steel |
 | Elastic modulus | 200 GPa |
 
+
 **Part 1: Force and Geometry Analysis**
 
 My approach to the problem: 
@@ -27,13 +27,14 @@ the part along the i^ axis. The radius until the nut I designated as x1, and the
 Taking the moment about the pin would allow me to find these two values of x1 and x2 that would balance the forces sufficently. 
 Once I found the lengths, I had the complete diagram of the nutcracker. 
 
+Discussion on usability of the design: 
+This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
+
 Diagram of the Nutcracker:
 
 ![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
 
 
-Discussion on usability of the design: 
-This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
 
 **Part 2: Beam Deflection and Material Selection**
 
