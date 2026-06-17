@@ -35,6 +35,11 @@ Diagram of the Nutcracker:
 ![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
 
 
+
+
+
+
+
 **Part 2: Beam Deflection and Material Selection**
 
 Problem statement and objective: 
