@@ -31,7 +31,7 @@ This design was usable as you only needed to apply 500N of force on each end wit
 
 Diagram of the Nutcracker:
 
-![Diagram]({{ "/assets/images/Diagram.jpg" | relative_url }}){: .inline-image-l}
+![Diagram]({{ "/assets/images/nutcracker_diagram_1.jpg" | relative_url }}){: .inline-image-l}
 
 
 
