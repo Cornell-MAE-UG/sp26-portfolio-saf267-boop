@@ -67,7 +67,7 @@ The maximum allowable deflection was limited to:
 
 The deflection equation was then used to solve for the required relationship between the elastic modulus \(E\) and the area moment of inertia \(I\). Since the applied force, beam length, and geometry were already defined, the material and cross-section selection depended primarily on \(E\) and \(I\).
 
-Structural steel was selected because of its high elastic modulus, stiffness, and ability to resist deformation under the applied loading conditions. Using <strong>E = 200 GPa</strong>, the selected beam shape was a W18x106 section.
+Structural steel was selected because of its high elastic modulus, stiffness, and ability to resist deformation under the applied loading conditions. Using E = 200 GPa, the selected beam shape was a W18x106 section.
 
 ![Final nutcracker beam model]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .project-image }
 
