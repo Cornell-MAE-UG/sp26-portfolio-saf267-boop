@@ -30,8 +30,7 @@ Discussion on usability of the design:
 This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
 
 Diagram of the Nutcracker:
-
-![Diagram]({{ "/assets/images/nutcracker_diagram_1.png" | relative_url }}){: .inline-image-l}
+![Nutcracker geometry diagram]({{ "/assets/images/nutcracker_diagram_1.png" | relative_url }}){: .project-image }
 
 
 
@@ -56,4 +55,4 @@ Given these assumptions the I used the following approaches:
 
 - **(c)** attatched is the diagram that I would use for this nutcracker. 
 
-![Diagram]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .inline-image-l}
+![Final nutcracker beam model]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .project-image }
