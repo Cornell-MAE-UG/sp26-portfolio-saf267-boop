@@ -4,8 +4,9 @@ title: "Nutcracker Design Project: Statics & Mechanics"
 description: Designed a functional nutcracker to meet specified force and usability constraints using statics, moment equilibrium, and beam deflection analysis. The project included force modeling, geometric design, and cross-section optimization.
 ---
 
-**Overview: I need to design a usable nutcracker given parameters as listed below**
+## Overview
 
+This project focused on designing a usable nutcracker that could generate the required cracking force while satisfying geometric, material, and deflection constraints. The design used static equilibrium, moment analysis, and beam deflection calculations to determine the required handle geometry and material selection.
 
 | Parameter | Value |
 |---|---:|
@@ -16,43 +17,76 @@ description: Designed a functional nutcracker to meet specified force and usabil
 | Selected material | Structural steel |
 | Elastic modulus | 200 GPa |
 
+---
 
-**Part 1: Force and Geometry Analysis**
+## Part 1: Force and Geometry Analysis
 
-My approach to the problem: 
-My approach was to first take the moment about the pin at the nutcracker, which was the part furtheset away from the handle. 
-Based on how I designed the nucracker, It allowed for the only part of the radius vector that I had to take into account, was
-the part along the i^ axis. The radius until the nut I designated as x1, and the radius until the applied for I measure as x1+x2. 
-Taking the moment about the pin would allow me to find these two values of x1 and x2 that would balance the forces sufficently. 
-Once I found the lengths, I had the complete diagram of the nutcracker. 
+The first stage of the design used moment equilibrium about the nutcracker pin. This point was selected because it allowed the applied handle force and the nut reaction force to be related through their moment arms.
 
-Discussion on usability of the design: 
-This design was usable as you only needed to apply 500N of force on each end with a 1cm gap in between. 
+The distance from the pin to the nut was defined as \(x_1\), while the distance from the pin to the applied user force was defined as \(x_1 + x_2\). Using the required nut-cracking force and the maximum applied user force, the handle length was selected so that the applied force could generate enough moment to crack the nut.
 
-Diagram of the Nutcracker:
+This geometry produced a usable design because the user only needed to apply 500 N at each handle while maintaining a 1 cm nut gap.
+
 ![Nutcracker geometry diagram]({{ "/assets/images/nutcracker_diagram_1.png" | relative_url }}){: .project-image }
 
+---
 
+## Part 2: Beam Deflection and Material Selection
 
+The second stage of the design analyzed the elastic deflection of the nutcracker handles. The objective was to select a beam cross-section and material that would keep the vertical deflection below 2% of the beam length while remaining as mass-efficient as possible.
 
+The design requirements were:
 
+1. Determine the location of maximum elastic deflection in the handles.
+2. Select a beam cross-section and material that limits vertical deflection to less than 2% of the handle length.
+3. Present the final nutcracker geometry and beam model.
 
+### Deflection Analysis
 
-**Part 2: Beam Deflection and Material Selection**
+A free-body diagram was created using three primary forces:
 
-Problem statement and objective: 
-Given the design of the nutcracker as stated above I now needed to: 
-#1 Find the location of maximum elastic deflection in your handles. 
-#2 Choose a “beam” design (cross-section, material) such that the vertical elastic deflection is below 2% of its length and is the most mass-efficient possible.
-#3 Present the final diamgram as in an image or drawing.
+1. The applied user force of 500 N.
+2. The reaction force from the nut.
+3. The reaction force at the pin.
 
-My approach to the problem: 
-Given these assumptions the I used the following approaches: 
+Using the beam deflection appendix from *Statics and Mechanics of Materials* by Beer, the point of maximum deflection was modeled as:
 
-- **(a)** I created a free body diagram, where there were only three fources that acted upon it. #1 the Applied force of 500N, #2 the reaction force from the nut and #3 the force at the pin. Because I have the lengths described as above, I was able to use the appendix within Statics and Mechanics of Materials (Ferdinand P. Beer) and modeled it such that Xm (the point of applied load) was position at ((L^2-a^2)/3)^1/2 where when pluggin in the known lengths for L and using a as 2cm as would be described in the model, I got that xm = 3.214 cm.
+\[
+x_m = \sqrt{\frac{L^2 - a^2}{3}}
+\]
 
-- **(b)** I used the same appendix which allowed me to find the equation for the maximum deflection. Because the maximum deflection can only be two percent of the length I used: Ymax = L*0.02 = (Pa(L^2-a^2)^3/2)/(9Sqrt(3)EIL), thus to answer the question we need to find the cross section and the material. This depends on the two variables E and I, all else are givens. So I isolated for them and now needed to choose materials such that it was the most mass effective. Using the same appendix, I found that a optimal material would be structural steel as it is sturdy to not deform a lot while still not being incredibley heavy. In addition, using the E=200GPA for steel this when done out gives the best W beam per unit shape to be the W 18x106
+Using the known handle length and \(a = 2 \text{ cm}\), the maximum deflection location was calculated as:
 
-- **(c)** attatched is the diagram that I would use for this nutcracker. 
+\[
+x_m = 3.214 \text{ cm}
+\]
+
+The maximum allowable deflection was limited to:
+
+\[
+Y_{max} = 0.02L
+\]
+
+The deflection equation was then used to solve for the required relationship between the elastic modulus \(E\) and the area moment of inertia \(I\). Since the applied force, beam length, and geometry were already defined, the material and cross-section selection depended primarily on \(E\) and \(I\).
+
+Structural steel was selected because of its high elastic modulus, stiffness, and ability to resist deformation under the applied loading conditions. Using \(E = 200 \text{ GPa}\), the selected beam shape was a W18x106 section.
 
 ![Final nutcracker beam model]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .project-image }
+
+---
+
+## Technologies and Concepts Used
+
+- Static equilibrium
+- Moment analysis
+- Beam deflection modeling
+- Material selection
+- Cross-section optimization
+- Structural steel design
+- Engineering design constraints
+
+---
+
+## Key Result
+
+The final design satisfied the required nut-cracking force while keeping the handle deflection below the allowable 2% limit. The project demonstrated how statics and mechanics of materials can be used to convert force requirements into a functional mechanical design.
