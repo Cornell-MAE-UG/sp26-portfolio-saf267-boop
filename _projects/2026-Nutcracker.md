@@ -54,9 +54,9 @@ A free-body diagram was created to model the nutcracker handle under the applied
 
 Using the given handle geometry, the beam was modeled using the beam deflection appendix from *Statics and Mechanics of Materials* by Ferdinand P. Beer. The location of maximum deflection was modeled as:
 
-$$
-x_m = \sqrt{\frac{L^2 - a^2}{3}}
-$$
+
+x_m = √((L² - a²) / 3)
+
 
 where:
 
@@ -66,33 +66,23 @@ where:
 
 Using the known handle length and:
 
-$$
-a = 2 \text{ cm}
-$$
+a = 2 cm
 
 the location of maximum deflection was calculated as:
 
-$$
-x_m = 3.214 \text{ cm}
-$$
+x_m = 3.214 cm
 
 This value was used to identify the critical location where the handle experiences its largest displacement under the applied load.
 
 **(b) Maximum Deflection Requirement and Material Selection**
 
-The maximum allowable deflection was limited to **2% of the handle length**. Therefore, the allowable deflection was defined as:
+The maximum allowable deflection was limited to 2% of the handle length. Therefore, the allowable deflection was defined as:
 
-$$
-Y_{max} = 0.02L
-$$
+Y_max = 0.02L
 
 Using the same beam deflection appendix, the maximum deflection equation was written as:
 
-$$
-Y_{max} =
-\frac{P a (L^2 - a^2)^{3/2}}
-{9\sqrt{3}EIL}
-$$
+Y_max = [P a (L² - a²)^(3/2)] / [9√3 E I L]
 
 where:
 
@@ -106,39 +96,25 @@ Since the applied force, handle length, and loading geometry were already define
 
 The deflection equation was rearranged to solve for the required stiffness relationship:
 
-$$
-EI =
-\frac{P a (L^2 - a^2)^{3/2}}
-{9\sqrt{3}L Y_{max}}
-$$
+EI = [P a (L² - a²)^(3/2)] / [9√3 L Y_max]
 
 Since:
 
-$$
-Y_{max} = 0.02L
-$$
+Y_max = 0.02L
 
 the required area moment of inertia for a selected material can be written as:
 
-$$
-I_{req} =
-\frac{P a (L^2 - a^2)^{3/2}}
-{9\sqrt{3}E L (0.02L)}
-$$
+I_req = [P a (L² - a²)^(3/2)] / [9√3 E L (0.02L)]
 
 This equation shows that the required cross-section depends heavily on the elastic modulus (E) of the material. A material with a larger elastic modulus requires a smaller area moment of inertia to satisfy the same deflection limit.
 
 Structural steel was selected because it has a high elastic modulus and resists elastic deformation effectively under the applied loading conditions. For structural steel, the elastic modulus was taken as:
 
-$$
-E = 200 \text{ GPa}
-$$
+E = 200 GPa
 
 Using this value of (E), the required area moment of inertia was compared against available W-beam sections. Based on this comparison, the selected section was:
 
-$$
-\text{W18} \times 106
-$$
+W18 × 106
 
 The W18×106 section was selected because it satisfied the deflection requirement while providing an effective balance between stiffness and mass. Therefore, the final beam selection was based on both the material stiffness of structural steel and the geometric stiffness provided by the selected W-beam cross-section.
 
