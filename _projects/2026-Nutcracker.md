@@ -40,11 +40,11 @@ The design requirements were:
 2. Select a beam cross-section and material that limits vertical deflection to less than 2% of the handle length.
 3. Present the final nutcracker geometry and beam model.
 
-### Deflection Analysis
+# Deflection Analysis
 
-### Structural Modeling and Beam Selection
+# Structural Modeling and Beam Selection
 
-#### (a) Free-Body Diagram and Loading Assumptions
+# (a) Free-Body Diagram and Loading Assumptions
 
 A free-body diagram was created to model the nutcracker handle under the applied loading condition. The system was simplified to include three primary external forces:
 
@@ -78,7 +78,7 @@ $$
 
 This value was used to identify the critical location where the handle experiences its largest displacement under the applied load.
 
-#### (b) Maximum Deflection Requirement and Material Selection
+# (b) Maximum Deflection Requirement and Material Selection
 
 The maximum allowable deflection was limited to **2% of the handle length**. Therefore, the allowable deflection was defined as:
 
