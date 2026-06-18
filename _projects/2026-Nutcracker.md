@@ -124,7 +124,7 @@ The W18×106 section was selected because it satisfied the deflection requiremen
 
 ---
 
-## Technologies and Concepts Used
+## Concepts Used
 
 - Static equilibrium
 - Moment analysis
