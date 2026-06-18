@@ -12,7 +12,6 @@ description: Designed a functional nutcracker to meet specified force and usabil
 | Required force to crack nut | 2220 N |
 | Applied user force | 500 N |
 | Nut radius | 1 cm |
-| Nut gap | 1 cm |
 | Maximum allowed deflection | ≤ 2% of beam length |
 | Selected material | Structural steel |
 | Elastic modulus | 200 GPa |
