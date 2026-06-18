@@ -42,6 +42,7 @@ The design requirements were:
 
   Deflection Analysis
 
+For this part 2, I assume the nutcracker to be modeled as shown in the diagram in the bottom of the page. This allows for the equations from the appendix to be applied. 
 **Structural Modeling and Beam Selection**
 
 **(a) Free-Body Diagram and Loading Assumptions**
@@ -116,7 +117,7 @@ Using this value of (E), the required area moment of inertia was compared agains
 
 W18 × 106
 
-The W18×106 section was selected because it satisfied the deflection requirement while providing an effective balance between stiffness and mass. Therefore, the final beam selection was based on both the material stiffness of structural steel and the geometric stiffness provided by the selected W-beam cross-section.
+The W18×106 section was selected because it satisfied the deflection requirement while providing an effective balance between stiffness and mass. Therefore, the final beam selection was based on both the material stiffness of structural steel and the geometric stiffness provided by the selected W-beam cross-section. This beam structure would be shrunk down as to be used for a nutcracker.
 
 
 ![Final nutcracker beam model]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .project-image }
