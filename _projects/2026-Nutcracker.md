@@ -20,10 +20,9 @@ This project focused on designing a usable nutcracker that could generate the re
 ---
 
 ## Part 1: Force and Geometry Analysis
-
 The first stage of the design used moment equilibrium about the nutcracker pin. This point was selected because it allowed the applied handle force and the nut reaction force to be related through their moment arms.
 
-The distance from the pin to the nut was defined as \(x_1\), while the distance from the pin to the applied user force was defined as \(x_1 + x_2\). Using the required nut-cracking force and the maximum applied user force, the handle length was selected so that the applied force could generate enough moment to crack the nut.
+The distance from the pin to the nut was defined as \(x_1\), while the distance from the pin to the applied user force was defined as \(x_1 + x_2\). Using the required nut-cracking force and the maximum applied user force. Taking the moment about the pin would allow me to find the two values of x_1 and x_2 such that it would balance the forces sufficently. The handle length was selected so that the applied force could generate enough moment to crack the nut. With these lengths found I used the to create the diagram below.
 
 This geometry produced a usable design because the user only needed to apply 500 N at each handle while maintaining a 1 cm nut gap.
 
