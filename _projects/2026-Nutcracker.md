@@ -56,4 +56,4 @@ Given these assumptions the I used the following approaches:
 
 - **(c)** attatched is the diagram that I would use for this nutcracker. 
 
-![Diagram]({{ "/assets/images/image-1.png" | relative_url }}){: .inline-image-l}
+![Diagram]({{ "/assets/images/nutcracker_diagram_2.png" | relative_url }}){: .inline-image-l}
