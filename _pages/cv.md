@@ -4,7 +4,7 @@ title: <Seamus Finn> - Resume
 permalink: /cv/
 ---
 ## Resume
-(https://github.com/user-attachments/files/25666497/Cornell.pdf)
+(https://github.com/assets/Seamus Current Resume.pdf)
 [Download my Resume]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
