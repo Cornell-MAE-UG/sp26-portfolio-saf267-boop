@@ -51,21 +51,20 @@ A free-body diagram was created using three primary forces:
 
 Using the beam deflection appendix from *Statics and Mechanics of Materials* by Beer, the point of maximum deflection was modeled as:
 
-\[
-x_m = \sqrt{\frac{L^2 - a^2}{3}}
-\]
+<div style="text-align: center; margin: 1rem 0; font-size: 16px;">
+  x<sub>m</sub> = √((L<sup>2</sup> − a<sup>2</sup>) / 3)
+</div>
 
 Using the known handle length and \(a = 2 \text{ cm}\), the maximum deflection location was calculated as:
-
-\[
-x_m = 3.214 \text{ cm}
-\]
+<div style="text-align: center; margin: 1rem 0; font-size: 16px;">
+  x<sub>m</sub> = 3.214 cm
+</div>
 
 The maximum allowable deflection was limited to:
 
-\[
-Y_{max} = 0.02L
-\]
+<div style="text-align: center; margin: 1rem 0; font-size: 16px;">
+  Y<sub>max</sub> = 0.02L
+</div>
 
 The deflection equation was then used to solve for the required relationship between the elastic modulus \(E\) and the area moment of inertia \(I\). Since the applied force, beam length, and geometry were already defined, the material and cross-section selection depended primarily on \(E\) and \(I\).
 
